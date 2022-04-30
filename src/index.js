@@ -32,12 +32,31 @@ function changeLanguage(lang) {
         },
         ua: {
             title:
-                "Superfluid Energy for energy independent houses",
+                "Курс встановлення сонячних панелей для українців",
             subtitle:
                 "Quality installations on solar, heatpump and batteries",
-                  course_title:"Cursus zonnepanelen installeren voor Oekraïners",
-            course_text:"Superfuid Energy organiseert samen met Solar Techniek Nederland een cursus Zonnepanelen installeren speciaal voor Oekraïners, met de garantie om binnen 6 weken een goede baan in Nederland te hebben."
-     },
+                  course_title:"Курс встановлення сонячних панелей для українців",
+                  course_text:`Superfuid Energy спільно з Solar Techniek Nederland організовує спеціально для українців курс встановлення сонячних панелей, з гарантією отримати хорошу роботу в Нідерландах протягом 6 тижнів.
+    
+                  <br><br>De cursus bestaat uit 2 delen:
+                  <br>
+      1.	 theorie en praktijk van “Monteur op het dak” <br>
+      2.	 Theorie en praktijk “vanaf de omvormer tot in de meterkast”,<br><br>
+      Курс субсидується UWV та компаніями-учасниками..<br>
+      Elke cursus wordt afgerond met een examen en een InstallQ certificaat.<br>
+      <p>
+      
+
+      <p>
+      <p>
+      Гарантована початкова зарплата не менше 2100 євро нетто.<p>
+      
+      <p>Перший курс стартує 9 травня 2022 року</p>
+      
+      Відправляйте запит на: superfluid.energie@gmail.com
+      
+                  
+                  `  },
         nl: {
             title:
                 "Superfluid Energy voor energie onafhankelijke woningen",
@@ -45,16 +64,18 @@ function changeLanguage(lang) {
                 "Kwaliteits installaties met zonne energie, warmtepompen en batterijen",
   
             course_title:"Cursus zonnepanelen installeren voor Oekraïners",
-            course_text:`Superfuid Energy organiseert samen met Solar Techniek Nederland een cursus Zonnepanelen installeren speciaal voor Oekraïners, met de garantie om binnen 6 weken een goede baan in Nederland te hebben.
-            <br><br>De cursus bestaat uit 2 delen:
-            <br>
-1.	 theorie en praktijk van “Monteur op het dak” <br>
-2.	 Theorie en praktijk “vanaf de omvormer tot in de meterkast”,<br><br>
-De cursus wordt gegeven in het Oekraïens.<br>
+            course_text:`<p>Superfuid Energy organiseert samen met Solar Techniek Nederland een cursus Zonnepanelen installeren speciaal voor Oekraïners,
+             met de garantie om binnen 6 weken een goede baan in Nederland te hebben.</p>
+            <p>De cursus bestaat uit 2 delen:
+            <ol><li> theorie en praktijk van “Monteur op het dak” 
+<li>Theorie en praktijk “vanaf de omvormer tot in de meterkast”
+</ol>
+</p>
+<p>De cursus wordt gegeven in het Oekraïens.</p><p>
 Elke cursus wordt afgerond met een examen en een InstallQ certificaat.<br>
 <p>
 De cursus wordt gesubsidieerd door het UWV en de deelnemende bedrijven.
-<p>
+</p>
 <p>
 Gegarandeerd start salaris  minimaal 2100 euro netto.<p>
 
