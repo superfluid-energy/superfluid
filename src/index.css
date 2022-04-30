@@ -1,5 +1,6 @@
 body {
     margin: 1vw;
+    font-size: large;
 }
 
 .nav {
@@ -67,6 +68,7 @@ body {
     justify-content: space-between;
     text-align: left;
 }
+
 
 .stepper-wrapper {
     margin-top: auto;
@@ -146,4 +148,20 @@ body {
 
 .stepper-item:last-child::after {
     content: none;
+}
+
+.step{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.step ul{
+    background-color: red;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+    text-align: left;
+
 }
