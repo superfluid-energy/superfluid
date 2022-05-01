@@ -1,5 +1,10 @@
 import css from "./index.css";
 
+
+const allElements = document.querySelectorAll('*[id]')
+
+allElements.forEach(element => console.log(element.id));
+
 const nextButtons = document.getElementsByClassName("next")
 const prevButtons = document.getElementsByClassName("prev")
 const stepperItems = document.getElementsByClassName("stepper-item")
@@ -26,18 +31,18 @@ function changeLanguage(lang) {
                 "Superfluid Energy for energy independent houses",
             subtitle:
                 "Quality installations on solar, heatpump and batteries",
-              course_title:"Cursus zonnepanelen installeren voor Oekraïners",
-            course_text:"Superfuid Energy organiseert samen met Solar Techniek Nederland een cursus Zonnepanelen installeren speciaal voor Oekraïners, met de garantie om binnen 6 weken een goede baan in Nederland te hebben."
-    
+            course_title: "Cursus zonnepanelen installeren voor Oekraïners",
+            course_text: "Superfuid Energy organiseert samen met Solar Techniek Nederland een cursus Zonnepanelen installeren speciaal voor Oekraïners, met de garantie om binnen 6 weken een goede baan in Nederland te hebben."
+
         },
         ua: {
             title:
                 "Курс встановлення сонячних панелей для українців",
             subtitle:
                 "Quality installations on solar, heatpump and batteries",
-                  course_title:"Курс встановлення сонячних панелей для українців",
+            course_title: "Курс встановлення сонячних панелей для українців",
 
-                  course_text:`
+            course_text: `
                   <p>
                   Superfuid Energy спільно з Solar Techniek Nederland організовує спеціально для українців курс встановлення сонячних панелей, з гарантією отримати хорошу роботу в Нідерландах протягом 6 тижнів.
                   </p>
@@ -79,9 +84,9 @@ function changeLanguage(lang) {
                 "Superfluid Energy voor energie onafhankelijke woningen",
             subtitle:
                 "Kwaliteits installaties met zonne energie, warmtepompen en batterijen",
-  
-            course_title:"Cursus zonnepanelen installeren voor Oekraïners",
-            course_text:`
+
+            course_title: "Cursus zonnepanelen installeren voor Oekraïners",
+            course_text: `
         <p>
         Superfuid Energy organiseert samen met Solar Techniek Nederland een cursus Zonnepanelen installeren speciaal voor Oekraïners,
              met de garantie om binnen 6 weken een goede baan in Nederland te hebben.
@@ -114,67 +119,24 @@ function changeLanguage(lang) {
 
             
             `
-        },
+        }
+
+
 
     };
 
-    title.textContent = language[lang].title;
-    subtitle.textContent = language[lang].subtitle;
- //   goal.textContent = language[lang].goal;
-  //  subgoal.textContent = language[lang].subgoal;
- //   stepstotake.textContent = language[lang].stepstotake;
- course_title.textContent = language[lang].course_title;
- course_text.innerHTML = language[lang].course_text;
+ 
+
+    allElements.forEach(element => {
+        const id = element.id;
+        console.log(element.id);
+        const txt = language[lang][id];
+        if (txt)
+            element.innerHTML = txt;
+    }
+
+    );
 
 }
 
-initButtons();
 
-function initButtons() {
-    for (let i = 0; i < nextButtons.length; i++) {
-        nextButtons[i].addEventListener("click", () => nextStep())
-        prevButtons[i].addEventListener("click", () => prevStep())
-    }
-
-    let currentStep = 0;
-
-    displayStep(0);
-
-    function nextStep() {
-        if (currentStep < steps.length - 1) {
-            currentStep++;
-            displayStep(currentStep);
-        }
-    }
-
-    function prevStep() {
-        if (currentStep > 0) {
-            currentStep--;
-            displayStep(currentStep);
-        }
-    }
-
-    function displayStep(step) {
-        for (let i = 0; i < step; i++) {
-            steps[i].style.display = "none";
-            stepperItems[i].classList.remove("active")
-            stepperItems[i].classList.add("completed")
-        }
-        steps[step].style.display = "block";
-        stepperItems[step].classList.add("active")
-        stepperItems[step].classList.remove("completed")
-
-        if (step == steps.length - 1) {
-            stepperItems[step].classList.remove("active")
-            stepperItems[step].classList.add("completed")
-        }
-
-        for (let i = step + 1; i < steps.length; i++) {
-            steps[i].style.display = "none";
-            stepperItems[i].classList.remove("active")
-            stepperItems[i].classList.remove("completed")
-
-        }
-
-    }
-}
