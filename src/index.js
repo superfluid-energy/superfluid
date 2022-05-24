@@ -16,13 +16,13 @@ function addLanEvent(lan) {
     el.addEventListener("click", () => changeLanguage(lan))
 }
 
-changeLanguage("ua");
+changeLanguage("nl");
 
 function changeLanguage(lang) {
 
-    let index=0;
-    if (lang=='ua') index=1;
-    if (lang=='nl') index=2;
+    let index = 0;
+    if (lang == 'ua') index = 1;
+    if (lang == 'nl') index = 2;
     allElements.forEach(element => {
         const id = element.id;
         const ar = data[id];
