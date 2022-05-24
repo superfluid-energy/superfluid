@@ -86,3 +86,7 @@ footer {
     letter-spacing: 1.67px;
     text-align: center;
 }
+
+table, th, td {
+    border: 1px solid;
+  }
