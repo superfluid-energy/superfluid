@@ -39,6 +39,22 @@ body {
     height: auto;
 }
 
+.container{
+
+   
+
+}
+.intro {
+    font-weight: bold;
+    font-size: 0.9em;
+     color: black;
+    padding : 1vw;
+    background-color: lightgreen;
+    letter-spacing: 1.67px;
+    text-align: center;
+}
+
+
 .title {
     font-weight: bold;
     font-size: 1.1em;

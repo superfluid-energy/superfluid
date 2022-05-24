@@ -1,4 +1,14 @@
 {
+    "intro":[
+        "We are 12 Ukranian guys that want to help Europe to get rid of russian gas",
+        "Wij zijn 12 Oekrainers die willen helpen Europa van het russische gas af te komen",
+        "Wij zijn 12 Oekrainers die willen helpen Europa van het russische gas af te komen"
+     ],
+    "sub-intro":[
+        "U kunt ons inhuren voor zonne energie projecten, wij zijn InstallQ gecertificeerd en leiden meer collega's op",
+        "You can put us on your job, we are InstallQ certified and teach others",
+        "U kunt ons inhuren voor zonne energie projecten, wij zijn InstallQ gecertificeerd"
+    ],
     "title": [
         "Superfluid Energy for energy independent houses",
         "Superfluid Energy для енергонезалежних будинків",
@@ -56,9 +66,9 @@
     ],
   
     "course_text_p8": [      
-        "Contact : ",
+        "You can reach us by email : ",
         "Відправляйте запит на: ",
-        "Opgeven via : "
+        "U kunt ons bereiken per email : "
     ]
 
 
