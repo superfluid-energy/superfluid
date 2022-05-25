@@ -1,13 +1,13 @@
 {
     "intro":[
         "We are 12 Ukranian guys that want to help Europe to get rid of russian gas",
-        "Wij zijn 12 Oekrainers die willen helpen Europa van het Russische gas af te helpen",
+        "Нас 12 українців, які хочуть допомогти Європі позбутися російського газу",
         "Wij zijn 12 Oekrainers die willen helpen Europa van het Russische gas af te helpen"
      ],
     "sub-intro":[
-        "We are available, we are InstallQ certified, and educate more colleagues",
-        "You can put us on your job, we are InstallQ certified and teach others",
-        "U kunt ons inhuren, wij zijn InstallQ gecertificeerd en leiden ook collega's op."
+        "We are available, we are InstallQ certified, and educate more ukrainian colleagues",
+        "Ми доступні, ми сертифіковані InstallQ і навчаємо більше українських колег",
+        "U kunt ons inhuren, wij zijn InstallQ gecertificeerd en leiden meer Oekraïense collega's op."
     ],
     "title": [
         "Superfluid Energy for energy independent houses",
@@ -21,10 +21,11 @@
    ],
    
     "course_text_p1": [
-        "Superfuid Energy organized together with Solar Techniek Nederland a course 'Solar panel installation, special for Ukraine refugees, with the garantee on a good, stable job after a 6 weeks course.",
-        "Superfuid Energy спільно з Solar Techniek Nederland організовує спеціально для українців курс встановлення сонячних панелей, з гарантією отримати хорошу роботу в Нідерландах протягом 6 тижнів.",
-        "Superfuid Energy organiseert samen met Solar Techniek Nederland een cursus Zonnepanelen installeren speciaal voor Oekraïners met de garantie om binnen 6 weken een goede, stabiele baan in Nederland te hebben."
+        "Superfuid Energy organized together with <a href='https://solartechnieknederland.nl/' target='_blank'>Solar Techniek Nederland</a> a course 'Solar panel installation, special for Ukraine refugees, with the garantee on a good, stable job after a 6 weeks course.",
+        "Superfuid Energy спільно з <a href='https://solartechnieknederland.nl/'  target='_blank'>Solar Techniek Nederland</a> організовує спеціально для українців курс встановлення сонячних панелей, з гарантією отримати хорошу роботу в Нідерландах протягом 6 тижнів.",
+        "Superfuid Energy organiseert samen met <a href='https://solartechnieknederland.nl/'  target='_blank'>Solar Techniek Nederland</a> een cursus Zonnepanelen installeren speciaal voor Oekraïners met de garantie om binnen 6 weken een goede, stabiele baan in Nederland te hebben."
     ],
+
     "course_text_p2": [
         "The course has 2 parts:",
         "урс включає",
@@ -60,8 +61,8 @@
         "Gegarandeerd start salaris  minimaal 2100 euro netto."
     ],
     "course_text_p7": [      
-        "The next course start on may 18, 2022. (may 18,19,25,26)",
-        "Перший курс стартує 18 травня 2022 року. (18,19,25,26 травня)",
+        "The next course start on july 5, 2022.",
+        "Наступний курс стартує 5 липня 2022 року.",
         "De volgende cursus begint op 5 juli 2022."
     ],
   
@@ -71,8 +72,8 @@
         "U kunt ons bereiken per email : "
     ],
     "course_data": [      
-        "16,17,23,24 mei, 20,21,27,28 juni ",
-        "18,19,25,27 mei, 22,23,29,30 juni ",
-        "5,6,7,8,12,13,14,15 juli"
+        "16,17,23,24 mei, 20,21,27,28 juni (june) ",
+        "18,19,25,27 mei, 22,23,29,30 juni (червень)",
+        "5,6,7,8,12,13,14,15 juli (липень)"
     ]
 }

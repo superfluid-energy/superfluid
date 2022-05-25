@@ -1,7 +1,7 @@
 :root {
-    --bg-color: green;
     --font-family: Gotham Rounded, sans-serif;
-    --primary-color: green;
+    --bg-color: #425367;
+    --bg-secondary-color: green;
     font-family: var(--font-family);
 }
 
@@ -44,9 +44,9 @@ body {
 .intro {
     font-weight: bold;
     font-size: 0.9em;
-     color: black;
+     color: white;
     padding : 1vw;
-    background-color: lightgreen;
+    background-color: green;
     letter-spacing: 1.67px;
     text-align: center;
 }

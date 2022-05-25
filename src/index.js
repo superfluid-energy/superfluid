@@ -59,7 +59,7 @@ function changeLanguage(lang) {
             else {
 
                 const txt = data[id][index]
-                element.innerText = txt;
+                element.innerHTML = txt;
             }
         }
     }
