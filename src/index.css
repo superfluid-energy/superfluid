@@ -18,7 +18,8 @@ body {
 }
 
 .logo img {
-    height: 7vw;
+    width: 400px;
+    height: 400px;
 }
 
 .lan-menu {
