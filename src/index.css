@@ -40,11 +40,7 @@ body {
     height: auto;
 }
 
-.container{
 
-   
-
-}
 .intro {
     font-weight: bold;
     font-size: 0.9em;
@@ -69,8 +65,7 @@ body {
 }
 
 main {
-    max-width: 1000px;
-    width: 100%;
+    max-width: 85vw;
     margin: 1rem auto;
     padding: 1vw;
     border: 0.1vw solid #73AD21;
