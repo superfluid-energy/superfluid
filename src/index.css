@@ -8,10 +8,11 @@
 body {
     margin: 1vw;
     font-size: large;
+    background-color: #f2f2f2;
+  
 }
 
 .nav {
-    background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
     padding: 1vw;
@@ -23,7 +24,7 @@ body {
 }
 
 .lan-menu {
-    height: 6vw;
+    height: 30%;
     background-color: lightgrey;
     padding: 0.5vw;
     display: flex;
