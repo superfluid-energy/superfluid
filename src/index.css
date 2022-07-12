@@ -41,6 +41,10 @@ body {
     height: auto;
 }
 
+.av{
+    color: white;
+    font-size: 2vw;
+}
 
 .intro {
     font-weight: bold;
